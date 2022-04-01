@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f3ef;
+}
+img {
+    margin-top: 5px;
+    margin-left: 30%;
+}
+.bloque_logo{
+    margin: 12px
+}
+
+.bloque1 {
+
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border: 2px #a3a09c solid;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.bloque2 {
+    margin: 0;
+    margin-left: 280px;
+    padding-left: 20px;
+    
+
+  }
+  h2 {
+      color: blue;
+  }
+  ul, a{
+    list-style:none;
+    text-decoration: none;
+    color: #a3a09c;
+    font-size: 90%;
+  }
+  li{
+      padding: 12%;
+  }
+
+  a:hover{
+      color: #51bcda;
+  }
